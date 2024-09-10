@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum Candy: String, Identifiable, CaseIterable {
-    case red, blue, yellow, green, purple, orange, pink
+    case red, blue, yellow, green, purple, orange, brown
     var id: String { rawValue }
 }
 
@@ -36,8 +36,8 @@ struct CandyView: View {
             return .purple
         case .orange:
             return .orange
-        case .pink:
-            return .pink
+        case .brown:
+            return .brown
         }
     }
 }
